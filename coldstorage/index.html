@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--  starting head section-->
+<head>
+    <title>Assignment (COLD storage)</title> <!-- Assignment for Visual Softech -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--  linking necessary files -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="assets/css/aos.css">
+
+    <link rel="stylesheet" href="assets/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="assets/css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+   
+	
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <style>
+        .owl-carousel.owl-drag .owl-item {
+            touch-action: unset;
+        }
+
+        .whatsapp-ico {
+            fill: white;
+            width: 50px;
+            height: 50px;
+            padding: 3px;
+            background-color: #4dc247;
+            border-radius: 50%;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+            /* box-shadow: 2px 2px 11px rgba(0,0,0,0.7); */
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 10;
+        }
+
+        .whatsapp-ico:hover {
+            box-shadow: 2px 2px 11px rgba(0, 0, 0, 0.7);
+        }
+		.transbox {
+			margin: 5px;
+			background-color: black;
+			opacity: 0.9;
+		}
+
+		.transbox p {
+			margin: 5%;
+			font-weight: bold;
+			color: white;
+			}
+			
+			
+
+    </style>
+</head>
+<!-- by  Prajakta Modhave -->
+<!--  body section-->
+<body>
+
+   
+    <a href="https://wa.me/918308485838?text=Hi,%20Can%20you%20please%20help%20me"><svg viewBox="0 0 32 32" class="whatsapp-ico d-none d-md-inline-block"><path d=" M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z" fill-rule="evenodd"></path></svg></a>
+
+	 <!-- navigation  -->
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">PUNE Cold Storage</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+
+            <div  id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#home" class="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="#about_us" class="nav-link">ABOUT US</a></li>
+					<li class="nav-item"><a href="#services" class="nav-link">OUR SERVICES</a></li>
+					<li class="nav-item"><a href="#clients" class="nav-link">CLIENTS</a></li>
+					<li class="nav-item"><a href="#contact_us" class="nav-link">CONTACT US</a></li>
+					<li class="nav-item"><a href="#location" class="nav-link">LOCATION</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+	
+   
+   <!-- slider   -->
+    <section class="home-slider owl-carousel" id="home">
+        <div class="slider-item" style="background-image: url('assets/images/img1.jpg');">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row slider-text align-items-center">
+                    <div class="col-md-7 col-sm-12 ftco-animate">
+                        <h1 class="mb-3">PUNE COLD STORAGE </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-item" style="background-image: url('assets/images/img2.jpg');">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row slider-text align-items-center">
+                    <div class="col-md-7 col-sm-12 ftco-animate">
+                        <h1 class="mb-3">PROCESSING FROZEN FRUITS AND VEGETABLES</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-item" style="background-image: url('assets/images/img3.jpg');">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row slider-text align-items-center">
+                    <div class="col-md-7 col-sm-12 ftco-animate">
+                        <h1 class="mb-3">HIGH QUALITY TEMPERATURE SENSORS</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+ <!--  features part  -->
+    <section class="ftco-section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="d-flex justify-content-center">
+                            <div class="icon d-flex justify-content-center mb-3"><span class="align-self-center flaticon-sailboat"></span></div>
+                        </div>
+                        <div class="media-body p-2">
+                            <h3 class="heading">Affordable & Dependable</h3>
+                            <p>We designed a system to enhance the reliability of our operations and process efficiency, and add value to the customer through time and cost savings.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="d-flex justify-content-center">
+                            <div class="icon d-flex justify-content-center mb-3"><span class="align-self-center flaticon-around"></span></div>
+                        </div>
+                        <div class="media-body p-2">
+                            <h3 class="heading">Vast & Unparalleled Domestic Network</h3>
+                            <p>Linked by some of the most advanced communications systems and positioned to offer a consistent, premium, standardized quality of service.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="d-flex justify-content-center">
+                            <div class="icon d-flex justify-content-center mb-3"><span class="align-self-center flaticon-compass"></span></div>
+                        </div>
+                        <div class="media-body p-2">
+                            <h3 class="heading">Expert Workforce</h3>
+                            <p> Here at PPS, we can deliver anything for any Customer, to and from anywhere. Every day, our employees bring the world together, united by purpose: “Connecting people, improving lives.”</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="d-flex justify-content-center">
+                            <div class="icon d-flex justify-content-center mb-3"><span class="align-self-center flaticon-map-of-roads"></span></div>
+                        </div>
+                        <div class="media-body p-2">
+                            <h3 class="heading">Advance Infrastructure</h3>
+                            <p>Refrigeration equipment imported from Bitzer, Germany and Copeland, USA. insulations panels made of Polyurethane panels of 120 mm thickness having metal skins on both the sides.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+ <!--  ABOUT us Part -->
+    <section class="ftco-section-2" id="about_us">
+        <div class="container-fluid d-flex">
+            <div class="section-2-blocks-wrapper row no-gutters">
+                <div class="img col-sm-12 col-lg-6" style="background-image: url('assets/images/img22.jpg');">
+                    <a href="assets/images/DCS.mp4" class="button popup-vimeo d-none d-md-inline-block"><span class="ion-ios-play" ></span></a>
+                </div>
+				
+                <div class="text col-lg-6 ftco-animate">
+                    <div class="text-inner align-self-start">
+
+                        <h2>Your Partner for Success</h2>
+                        <p>PUNE Cold Storage Private Limited is a Private incorporated on 17 June 1946.We are glad to introduce ourselves as leaders in processing frozen fruits and vegetables. Specializing in developing, growing and processing all fruits
+                            and vegetables, milk products, at blast freezing, food and many more.</p> 
+						<p>VersaCold’s vision is to enhance our customers’ success and be their most trusted, reliable, long-term partner.</p>
+                         <ul>
+						    <ol>
+							    Our purpose of ensuring the safety, quality and freshness of the food families eat
+							</ol>
+							<ol>
+							    Our focus across the entire supply chain network on the movement of temperature-sensitive food
+							</ol>
+							<ol>
+							    Best-in-class food safety, including a commitment to having all of our facilities BRC-certified
+							</ol>
+							<ol>
+							    A Cold Chain Assurance team to help support customer food safety initiatives
+							</ol>
+							<ol>
+							    transportation equipment that conforms to the highest standards
+							</ol>
+							<ol>
+							    End-to-end supply chain ownership, including warehousing, transportation and integrated logistics
+							</ol>
+						
+						 </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ <!-- service part -->
+    <section class="ftco-section" id="services">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-5">
+                <div class="col-md-7 text-center heading-section ftco-animate">
+                    <h2>Our Services</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 promo ftco-animate">
+                    <a href="#" class="promo-img mb-4" style="background-image: url(assets/images/img6.jpg);"></a>
+                    <div class="text text-center">
+                        <h2>Deep Freezer</h2>
+                        <p>The Deep Freezer use State of Art of insulations panels made of Polyurethane panels of 120 mm thickness having metal skins on both the sides. Offer warehouse facilities of products at - 18° centigrade . Refrigeration equipment
+                            imported from Bitzer, Germany and Copeland, USA. Uses Enviroment friendly refrigrant Gas R-404 A. Power Backup.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 promo ftco-animate">
+                    <a href="#" class="promo-img mb-4" style="background-image: url(assets/images/s1.jpg);"></a>
+                    <div class="text text-center">
+                        <h2>Refrigerated Warehosing</h2>
+                        <p>Offers warehousing facilities of products at 0° - 2° Centigrade . Specialized Ethylene free chambers for imported and Indian fruits. Power Back Up. Convenient operating hours from 6.00 AM to 10.00 PM.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 promo ftco-animate">
+                    <a href="#" class="promo-img mb-4" style="background-image: url(assets/images/s3.jpg);"></a>
+                    <div class="text text-center">
+                        <h2>Carrying & Forwarding Agents</h2>
+                        <p>Offers services for delivery of milk and frozen foods products to the retailers and end consumers from the producer, importers and whole sellers in PUNE &amp; NCR. These services provided are:Storage of frozen and agri products.
+                            Collection of orders from retailers. Delivery of products. Invoicing of products delivered to the retailers.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 promo ftco-animate">
+                    <a href="#" class="promo-img mb-4" style="background-image: url(assets/images/img11.png);"></a>
+                    <div class="text text-center">
+                        <h2>Supply Chain Cold Storage Solutions</h2>
+                        <p>We offers end-to-end supply chain with cold storage facility and solutions. We understand your business objectives and work with you to find the best cold storage solutions.Consisting of small distributors, restaurants, QSR, embassies,
+                            flight kitchens, fast food outlets, hoteliers, suppliers, vendors etc. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- clients -->
+	 
+	 
+	 
+     <section  id="clients">
+            <div  class="container">
+		    <div class="row justify-content-center mb-5 pb-5">
+                <div class="col-md-7 text-center heading-section ftco-animate">
+                    <h2>Clients</h2>
+                </div>
+            </div>
+			<div class="row" style="background-image: url('assets/images/img23.jpg');background-image: repeat;  ">
+			<div class="row justify-content-center">
+			
+			    <div class="col-md-4">
+				 <h1 style="color: #66ff66; text-shadow: 2px 2px 5px white; margin-left: 40px; ">   OUR CLIENTS </h1>
+				</div>
+				
+				<div class="col-md-4"  >
+				
+				<h1 style="color: white;  ">250++</h1>
+				<h2 style="color: white;">Clients</h2>
+				<br>
+				<br>
+				<h1 style="color: white;">10++ yrs</h1>
+				<h2 style="color: white;">Experience</h2>
+				</div>
+			
+				<div class="col-md-4" style=" text-align: center;">
+			
+				<h1 style="color: white;">50++</h1>
+				<h2 style="color: white;">Staff</h2>
+				<br>
+				<br>
+				<h1 style="color: white;">800++</h1>
+				<h2 style="color: white;">Deliveries</h2>
+				</div>
+	
+			</div>
+	
+		    </div>
+        </div>
+	</section>
+
+ <!-- Contact us  -->
+    <section class="ftco-section contact-section" id="contact_us">
+        <div class="container">
+            <div class="row block-9 mb-4">
+                <div class="col-md-6 pr-md-5 flex-column d-none d-md-inline-block">
+                    <div class="row d-block flex-row">
+                        <h2 class="h4 mb-4">Feel free to Reach out</h2>
+                        <div class="col mb-3 d-flex py-4 border" style="background: white;">
+                            <div class="align-self-center">
+                                <p class="mb-0"><span>Address:</span> <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242118.14199614953!2d73.72288117003453!3d18.524564859944654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1626803619799!5m2!1sen!2sin">Cold storage, PUNE, PUNE 110033 , Maharashtra</a></p>
+                            </div>
+                        </div>
+                        <div class="col mb-3 d-flex py-4 border" style="background: white;">
+                            <div class="align-self-center">
+                                <p class="mb-0">
+                                    <span>Call Us On:</span> <a href="tel://8308485838">9187654321,</a>
+                                </p>
+                                <p class="mb-0"><span>WhatsApp:</span> <a href="tel://918308485838">+91 9187654321</a></p>
+                            </div>
+                        </div>
+                        <div class="col mb-3 d-flex py-4 border" style="background: white;">
+                            <div class="align-self-center">
+                                <p class="mb-0"><span>Email:</span> <a href="mailto:prajaktamodhave07@gmail.com">prajaktamodhave07@gmail.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <form action="/Home/Index" method="get">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Enter Your Full Name" name="name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Enter Your Email ID" name="email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Enter Your Contact Number" required name="mobile">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+    <!-- dynamic map -->
+    <section  id="location">
+	    <div class="container" >
+		    <div class="row justify-content-center mb-5 pb-5">
+                <div class="col-md-7 text-center heading-section ftco-animate">
+                    <h2>LOCATION</h2>
+                </div>
+            </div>
+		        <center>
+                    <div class="col-md-8">
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242118.14199614953!2d73.72288117003453!3d18.524564859944654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1626803619799!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				    </div>
+			    </center>
+			</div>
+    </section>
+ <!-- Footer part -->
+  <div class="footer-basic" >
+        <footer class="ftco-footer ftco-bg-dark ftco-section">
+            <div class="social" class="text-center p-3" style="color: #f2f2f2" >
+			<a href="#"><i class="icon ion-social-instagram"></i></a>
+			<a href="https://github.com/PrajaktaModhave07"><i class="icon ion-social-github"></i></a>
+			<a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a>
+			</div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+				<li class="list-inline-item"><a href="#about_us" class="nav-link">ABOUT US</a></li>
+                <li class="list-inline-item"><a href="#services" class="nav-link">OUR SERVICES</a></li>
+                <li class="list-inline-item"><a href="#clients" class="nav-link">CLIENTS</a></li>
+                <li class="list-inline-item"><a href="#contact_us" class="nav-link">CONTACT US</a></li>
+				<li class="list-inline-item"><a href="#location" class="nav-link">LOCATION</a></li>
+            </ul>
+            <div class="text-center p-3" style=" color: white;">
+			Copyright © 
+			<script>
+                document.write(new Date().getFullYear());
+            </script> All rights reserved | Designed and Developed By <a href="https://prajaktamodhave07.github.io/temp/" style="color: #ff8080" target="_blank">Prajakta</a>
+			</div>
+		</footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+ 
+
+    <!-- loader
+
+    </footer -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" /><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
+
+     <!-- javascript files -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.stellar.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/jquery.animateNumber.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.js"></script>
+    <script src="assets/js/jquery.timepicker.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="assets/js/google-map.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+<!--  body ended -->
+</html>
